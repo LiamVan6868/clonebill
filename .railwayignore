@@ -1,0 +1,8 @@
+.git/
+.gitignore
+.railwayignore
+public_html/vendor/
+vendor/
+public_html/error_log
+error_log
+*.log
