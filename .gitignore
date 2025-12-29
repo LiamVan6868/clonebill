@@ -1,18 +1,23 @@
 # System files
 .DS_Store
 Thumbs.db
+.env
+__MACOSX/
 
 # Logs
 error_log
 *.log
 
-# Vendor (optional, often committed in PHP non-composer projects, but usually ignored)
-# Keeping vendor for now as this seems to be a full source drop, not composer-managed
-# /public_html/vendor
+# Vendor
+# vendor/
+# public_html/vendor
 
 # Config with secrets
 public_html/config.ini
 public_html/install.lock
+config.ini
+install.lock
+public_html/function/connect/config.ini.php
 
 # User generated content (cache, uploads)
 public_html/public/cache/
@@ -21,7 +26,7 @@ public_html/public/src/vtd/img/user/
 # IDE
 .vscode/
 .idea/
+idea/
 
 # Large files history
 public_html/function/call-back/api/error_log
-public_html/function/connect/config.ini.php
