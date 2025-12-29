@@ -1,0 +1,10 @@
+vendor/
+.DS_Store
+.env
+*.log
+error_log
+install.lock
+config.ini
+idea/
+.vscode/
+__MACOSX/

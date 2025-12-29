@@ -1,0 +1,8 @@
+<?php
+$config = [
+    'server' => getenv('DB_HOST') ?: 'localhost',
+    'username' => getenv('DB_USER') ?: 'root',
+    'username' => 'root',
+    'password' => '',
+    'database' => 'billviet', // Corrected from malformed line in instruction
+];
